@@ -1,0 +1,324 @@
+*{
+   
+    font-family: "Bebas Neue", sans-serif!important;
+    letter-spacing: 2px!important;
+}
+
+p{
+    letter-spacing: 1px!important;
+}
+
+
+h2{
+    font-size:1.5rem!important;
+    font-weight: 500!important;
+    margin-bottom: 2%!important;
+}
+h3{
+    font-size:1.2rem!important;
+    font-weight: 500!important;
+}
+
+html, body, #root {
+    height: 100%;
+    margin: 0;
+}
+
+.cs-app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+/*s */
+
+.cs-content {
+    flex: 1;
+}
+
+
+
+.container, .container-lg, .container-md, .container-sm {
+    max-width: 100% !important;  
+    padding-left: 0 !important; 
+    padding-right: 0 !important;
+    margin: 0 auto !important;     
+    box-sizing: border-box;      
+}
+
+.pb-custom{
+    padding-bottom: 5%;
+}
+
+
+.cs-container {
+    padding-left: 8% !important;
+    padding-right: 8% !important;
+
+    @media (max-width: 1200px) {
+        padding-left: 6% !important;
+        padding-right: 6% !important;
+    }
+    @media (max-width: 992px) {
+        padding-left: 4% !important;
+        padding-right: 4% !important;
+    }
+    @media (max-width: 768px) {
+        padding-left: 3% !important;
+        padding-right: 3% !important;
+    }
+    @media (max-width: 576px) {
+        padding-left: 2% !important;
+        padding-right: 2% !important;
+    }
+}
+
+.cs-page-padding{
+    padding-top:8rem;
+}
+
+.btn-primary{
+    color:white!important;
+}
+
+.btn{
+    border-radius: 0!important;
+}
+
+.cs-btn-primary{
+    padding: 15px 30px 15px 30px!important;
+    border-radius: 0!important;
+    letter-spacing: 1px;
+    background-color:#b63436!important;
+    color:white!important;
+    border-color: #b63436!important;
+}
+.cs-btn-sec{
+    padding: 15px 30px 15px 30px!important;
+    border-radius: 0!important;
+    letter-spacing: 1px;
+    border-color: white!important;
+    color:white!important;
+}
+
+.cs-btn-max-width{
+    width: 100%!important;
+}
+
+.cs-action .btn{
+    width: 100%!important;
+}
+
+
+
+.cs-h1-div{
+    position: relative;
+    background: url("../public/sneaker.jpg") center/cover no-repeat; /* Background image only */
+    width: 100vw; /* Full viewport width */
+    display: flex;
+    flex-direction: column;
+    justify-content: bottom center;
+    color: white; /* Text color on top of overlay */
+    padding: 0 10vw; /* Adjust padding as needed */
+    overflow: hidden;
+    padding-top:120px!important;
+    padding-bottom: 1%;
+    margin-bottom: 3%!important;
+}
+
+.cs-h1-div::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); 
+    z-index: 1;
+}
+
+.cs-h1-div > * {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 1rem; 
+}
+
+.cs-h1-div h1{
+    text-transform: uppercase!important;
+    font-size:1.5rem!important;
+}
+
+
+
+
+.cs-form input{
+    margin-bottom:1rem!important;
+}
+
+.cs-gray-box{
+    width:50%!important;
+    padding:5%!important;
+    background-color: #ececec;
+    margin-bottom:3%;
+}
+
+/* NAVBAR */
+
+.transparent-navbar {
+    position: absolute!important;
+    top: 0!important;
+    left: 0!important;
+    width: 100%!important;
+    background-color: rgba(0, 0, 0, 0.6)!important;
+    z-index: 1000!important;
+}
+
+.transparent-navbar,.navbar-brand,
+.transparent-navbar .nav-link {
+    color: #fff !important; 
+}
+
+.transparent-navbar .nav-link:hover {
+    color: #cd2f2d !important;
+    font-weight: 500;
+}
+
+.transparent-navbar .active {
+    color: #cd2f2d !important;
+    font-weight: 500;
+}
+.nav-link{
+    margin:0px 10px;
+    font-size: 1.1rem!important;
+    letter-spacing: 1px!important;
+}
+
+
+
+#cs-logo{
+    font-weight: 900!important;
+    font-size:3rem!important;
+    color:#cd2f2d!important;
+    font-style: italic;
+} 
+
+.navbar-brand span{
+    color:white!important;
+    margin-right:2rem;
+}
+
+.cart svg{
+    font-size:1.2rem;
+}
+
+
+/* Homepage */
+
+
+
+.cs-homepage {
+    position: relative;
+    background: url("../public/sneaker.jpg") center/cover no-repeat;
+    width: 100vw; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white; 
+    padding: 0 10vw; 
+    overflow: hidden;
+}
+
+.cs-homepage::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); 
+    z-index: 1;
+}
+
+
+.cs-homepage > * {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 1rem; 
+}
+
+.cs-homepage h1{
+    font-size: 7rem;
+    font-weight: 900;
+    line-height: 1.2em;
+    letter-spacing: 2px!important;
+}
+
+.cs-homepage .d-flex {
+    margin-top:1.5rem; 
+}
+
+
+
+
+/* Product page */
+
+
+.cs-red{
+    color:#cc302a;
+}
+
+
+.cs-search-filter{
+    padding:3%;
+    background-color: #ececec;
+    margin-bottom:3%;
+}
+
+
+/* Product View */
+
+
+.card, .card img{
+    border-radius: 0px!important;
+}
+
+.card img{
+    height:300px!important;
+    object-fit: cover!important;
+}
+
+
+.cs-product-name{
+    text-transform: uppercase!important;
+    font-weight: 700!important;
+}
+
+
+
+
+
+/* 404 */
+
+.cs-404{
+    font-size: 10rem!important;
+}
+
+
+/* Footer */
+
+.cs-footer{
+    background-color: rgb(17, 17, 17)!important;
+    border-top:3px solid #b63436 ;
+    margin-top:auto!important;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.cs-footer p{
+    margin-bottom: 0px!important;
+    font-size:0.8rem;
+    letter-spacing: 2px!important;
+}
+
+
