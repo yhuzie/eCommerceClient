@@ -112,7 +112,7 @@ html, body, #root {
 
 .cs-h1-div{
     position: relative;
-    background: url("../public/sneaker.jpg") center/cover no-repeat; /* Background image only */
+    background: url("../public/bg.avif") center/cover no-repeat; /* Background image only */
     width: 100vw; /* Full viewport width */
     display: flex;
     flex-direction: column;
@@ -217,7 +217,7 @@ html, body, #root {
 
 .cs-homepage {
     position: relative;
-    background: url("../public/sneaker.jpg") center/cover no-repeat;
+    background: url("../public/bg.avif") center/cover no-repeat;
     width: 100vw; 
     height: 100vh;
     display: flex;

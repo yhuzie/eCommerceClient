@@ -6,7 +6,7 @@ function Footer() {
     return (
         <footer className="text-white py-4 cs-footer ">
             <Container className="text-center">
-                <p>© {new Date().getFullYear()} Sapashoes. All rights reserved.</p>
+                <p>© {new Date().getFullYear()} Selectpono. All rights reserved.</p>
             </Container>
         </footer>
     );
