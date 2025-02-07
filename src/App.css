@@ -178,12 +178,12 @@ html, body, #root {
 }
 
 .transparent-navbar .nav-link:hover {
-    color: #cd2f2d !important;
+    color: #9beceb !important;
     font-weight: 500;
 }
 
 .transparent-navbar .active {
-    color: #cd2f2d !important;
+    color: #9beceb !important;
     font-weight: 500;
 }
 .nav-link{
@@ -197,7 +197,7 @@ html, body, #root {
 #cs-logo{
     font-weight: 900!important;
     font-size:3rem!important;
-    color:#cd2f2d!important;
+    color:#9beceb!important;
     font-style: italic;
 } 
 
@@ -264,7 +264,7 @@ html, body, #root {
 
 
 .cs-red{
-    color:#cc302a;
+    color:#9beceb;
 }
 
 

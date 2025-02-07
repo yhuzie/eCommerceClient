@@ -29,7 +29,7 @@ function AppNavBar() {
         <Navbar expand="lg" className="transparent-navbar">
             <Container className='cs-container'>
                 <LinkContainer to="/">
-                    <Navbar.Brand id='cs-logo'>SAPA<span>SHOES</span></Navbar.Brand>
+                    <Navbar.Brand id='cs-logo'>SELECT<span>PONO</span></Navbar.Brand>
                 </LinkContainer>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
